@@ -1,0 +1,47 @@
+<!--Version 1.2, Coded by benjamin!-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=info" />
+    <link rel="stylesheet" href="style.css">
+    <title>IDEK</title>
+  </head>
+  <body>
+    <div class="banner" id="banner1">
+      <span class="material-symbols-outlined">info</span>
+      <h4>Want to visit the old version?</h4>
+      <p>Click <a href="https://web.archive.org/web/20241216204914/http://e4st.ix.tc/">HERE</a> to go there! </p>
+      <button class="close-banner" onclick="dismissBanner('banner1')">Dismiss</button>
+    </div>
+    <div class="banner" id="banner2">
+      <span class="material-symbols-outlined">info</span>
+      <h4>Not the page you were looking for?</h4>
+      <p>Click <a href="./docs.html#missingpage">HERE</a> to go find out why you're here! </p>
+      <button class="close-banner" onclick="dismissBanner('banner2')">Dismiss</button>
+    </div>
+    <script src="scripts.js"></script>
+      <div class="boxed">
+        <h3>Info</h3>
+        <div class="btxt">
+          <p>I am a 15 year old frontend developer, I am decent with HTML and CSS, but JavaScript is not my thing. I am not good with any of the other web frameworks as I would rather stick to finishing my profecciency on HTML, CSS, and JS before I mess around with any other frameworks. <br>In the future, I see myself going for a professional frontend development job. I could help with giving you tips on how I get inspiration for my code, or what motivates me when I feel like coding. <br>Backend development is not my thing, I plan on learning C, C#, C++ and some other coding languages though. <br>When I am not coding, I spend time playing games with my friends on discord, or chatting with my family. <br>Privacy is something I care a lot about. I suggest some web projects and other things to keep your info yours. </p>
+        </div>
+      </div>
+    <div class="boxed">
+        <h3>Projects</h3>
+        <div class="btxt">
+          <p>My projects will be listed on a page for you to find them easily.
+        </div>
+        <a href="https://github.com/Benjamin-Blum222">
+          <button>Click Me!</button>
+        </a>
+        </p>
+    </div>
+    <footer>
+      <p>Coded december 16th-18th of 2024</p>
+      <button onclick="window.location.href='./credits.html'">Credits</button>
+      <button onclick="window.location.href='./toolssubpages/tools.html'">Extra Tools</button>
+      <button onclick="window.location.href='./docs.html'">Docs</button>
+      <button onclick="restoreBanners()">Restore Banners</button>
+    </footer>
+  </body>
+</html>
